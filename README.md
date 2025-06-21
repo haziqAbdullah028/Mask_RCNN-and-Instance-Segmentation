@@ -27,9 +27,6 @@ This project performs **object detection** and **instance segmentation** on inpu
 ├── script.py # Main code file
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -40,9 +37,9 @@ Edit
 ### 🔧 Install dependencies:
 pip install opencv-python numpy matplotlib
 
-🚀 How to Run
+## 🚀 How to Run
 Clone the repository:
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/haziqAbdullah028/Mask_RCNN-and-Instance-Segmentation
 cd your-repo-name
 Add your input image as car.jpg (or modify the code to use a different name).
 
@@ -56,30 +53,30 @@ Printed evaluation metrics in console
 
 Visualized results using matplotlib
 
-📊 Sample Output
-yaml
-Copy
-Edit
+## 📊 Sample Output
+
 [person] Detection 1 — IoU: 1.000, Precision: 1.000, Recall: 1.000
 [motorcycle] Detection 16 — IoU: 1.000, Precision: 1.000, Recall: 1.000
 [car] Detection 21 — IoU: 1.000, Precision: 1.000, Recall: 1.000
 
-=== Evaluation Summary ===
+## === Evaluation Summary ===
 Mean IoU: 1.000
 Mean Precision: 1.000
 Mean Recall: 1.000
 Currently, the system evaluates predicted masks against themselves (mock ground truth). For real performance measurement, use manually annotated masks.
 
-🧪 Evaluation Metrics
+## 🧪 Evaluation Metrics
 Metric	Description
 IoU	Intersection over Union of predicted vs actual
 Precision	TP / (TP + FP)
 Recall	TP / (TP + FN)
 
-🎨 Visual Results
-Bounding Boxes	Segmentation Masks
+## 🎨 Visual Results
+## Bounding Boxes	
+![image](https://github.com/user-attachments/assets/8f9fb86c-59fa-45c9-b442-a7b0e0c0dfed)
+## Segmentation Masks
+![image](https://github.com/user-attachments/assets/8d833249-ecc4-4621-90d1-66aa38f5e9e7)
 
-(Replace with your own image results or screenshots)
 
 📚 References
 📘 Mask R-CNN (He et al.)
@@ -88,20 +85,13 @@ Bounding Boxes	Segmentation Masks
 
 🧾 COCO Dataset
 
-👨‍💻 Author
+👨‍💻 M.Haziq Abdullah
 Your Name
-📧 your.email@example.com
-🌐 GitHub
+📧 haziqabdullah028@gmail.com
+🌐 haziqAbdullah028
 
 📄 License
 This project is licensed under the MIT License.
 
 ---
 
-### ✅ Final Tips
-
-- ✅ Replace `your-username`, `your-repo-name`, and `Your Name` with your actual info.
-- ✅ Optionally add `examples/boxes.jpg` and `examples/masks.jpg` for GitHub previews.
-- ✅ Place this content in `README.md` at your project root.
-
-Let me know if you want a version in Jupyter Notebook, or if you're planning to replace
