@@ -17,15 +17,16 @@ This project performs **object detection** and **instance segmentation** on inpu
 
 ## 🗂️ Project Structure
 
-📁 your-project/
+📁 mask_rcnn_project/
 ├── dnn/
-│ ├── frozen_inference_graph.pb
-│ └── mask_rcnn_inception_v2_coco_2018_01_28.pbtxt
-├── car.jpg # Sample input image
-├── mask_rcnn_classes.txt # COCO class labels
-├── ground_truth/ # Saved predicted masks (mock GT)
-├── script.py # Main code file
-└── README.md # Project documentation
+│   ├── frozen_inference_graph.pb
+│   └── mask_rcnn_inception_v2_coco_2018_01_28.pbtxt
+├── car.jpg                     # Sample input image
+├── mask_rcnn_classes.txt      # COCO class labels
+├── ground_truth/              # Saved predicted masks (mock GT)
+├── Mask_RCNN.ipynb            # Jupyter notebook (main code)
+└── README.md                  # Project documentation
+
 
 
 ---
@@ -40,12 +41,12 @@ pip install opencv-python numpy matplotlib
 ## 🚀 How to Run
 Clone the repository:
 git clone https://github.com/haziqAbdullah028/Mask_RCNN-and-Instance-Segmentation
-cd your-repo-name
+cd Mask_RCNN-and-Instance-Segmentation
+
+Open the jupyter notebook:
+jupyter notebook Mask_RCNN.ipynb
 Add your input image as car.jpg (or modify the code to use a different name).
 
-Run the Python script:
-python script.py
-Output:
 
 Mask images saved in ground_truth/
 
@@ -86,9 +87,8 @@ Recall	TP / (TP + FN)
 🧾 COCO Dataset
 
 👨‍💻 M.Haziq Abdullah
-Your Name
 📧 haziqabdullah028@gmail.com
-🌐 haziqAbdullah028
+🌐 https://github.com/haziqAbdullah028
 
 📄 License
 This project is licensed under the MIT License.
